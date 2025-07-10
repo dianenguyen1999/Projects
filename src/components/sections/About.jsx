@@ -28,7 +28,7 @@ export const About = () => {
                 <p className="text-gray-300 mb-6">
                     Hi, my name is Diane and I've been a QA engineer for 4 years. 
                     I specialize in manual testing and automation testing using cypress. 
-                    I went to a Full stack coding bootcamp back in 2022 and I now am continuing my education at SLCC and plan to transfer over to a university after to get my Bachelor's Degree.  
+                    I went to a Full stack coding bootcamp back in 2020 and I now am continuing my education at SLCC and plan to transfer over to a university after to get my Bachelor's Degree.  
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -66,9 +66,30 @@ export const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Education </h3>
+                <ul className= "list-disc list-inside text=gray-300 space-y-2">
+                    <li>
+                        <strong>
+                            AS - Salt Lake Community College
+                        </strong>
+                    </li>
+                    <li>
+                        <strong>
+                            DevPoint Labs - Full Stack Bootcamp
+                        </strong>
+                    </li>
+                </ul>
               </div>
               <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Work Experience </h3>
+                <div className="space-y-4 text-gray-300">
+                    <div>
+                        <h4> QA Engineer - Acima (2020 - Present) </h4>
+                        <p>
+                            Experienced QA Engineer with a strong foundation in both manual and automated testing. Skilled at reviewing code for quality and functionality, identifying issues early in the development cycle.
+                        </p>
+                    </div>
+
+                </div>
               </div>
             </div>
         </div>
