@@ -10,9 +10,9 @@ export const Projects = () => {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(58,130,246,0.2)] transition">
-                        <h3>Reddit Clone</h3>
+                        <h3>Reddit</h3>
                         <p>
-                            Reddit but not Reddit 
+                            A clone of Reddit and it's functionalities
                         </p>
                         <div>
                             {["Ruby", "Javascript", "HTML", "CCS"].map((tech, key) =>(
@@ -24,6 +24,39 @@ export const Projects = () => {
                                     {tech}
                                 </span>
                             ))}
+                        </div>
+                        <div className="flex justify-between items-center">
+                            <a 
+                                href="#" 
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                > 
+                                View Project 🠪
+                            </a>
+                        </div>
+                    </div>
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(58,130,246,0.2)] transition">
+                        <h3>Home Listings</h3>
+                        <p>
+                            An app to show home listings in your area.
+                        </p>
+                        <div>
+                            {["Ruby", "Javascript", "HTML", "CCS", "SCSS"].map((tech, key) =>(
+                                <span 
+                                key={key}
+                                  className="bg-blue-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                  hover:shadow-[0_2px_8px_rgba(58,130,246,0.1)] transition-all"
+                                >
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                        <div className="flex justify-between items-center">
+                            <a 
+                                href="#" 
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                > 
+                                View Project 🠪
+                            </a>
                         </div>
                     </div>
                 </div>
